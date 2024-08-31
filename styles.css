@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+
+body{
+    color: #ffffff;
+    padding: 20px;
+    line-height: 1.6;
+    background-image: url("image/teste3.jpg");
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgba(3, 14, 62, 0.750); 
+    color: rgb(214, 213, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+ }
+ 
+ header h1{
+     margin-bottom: 10px;
+ }
+
+ header nav ul{
+    list-style-type: none;
+    padding: 0;
+ }
+ 
+ header nav ul li{
+    display: inline;
+    margin-right: 20px;
+ }
+
+ header nav ul li a{
+    color: white;
+    text-decoration:  none;
+    font-weight: bold;
+ }
+
+ header nav ul li a:hover{
+    color:  rgba(215, 222, 252, 0.75);
+}
+
+header:hover{
+    background-color: rgba(4, 18, 78, 0.75);
+}
+
+section{
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color:  rgba(3, 14, 62, 0.750);
+    border-radius:  10px;
+    box-shadow:  0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#sobre:hover{
+    background-color: rgba(4, 18, 78, 0.75);
+}
+
+#sobre{
+    background-color:  rgba(3, 14, 62, 0.750);
+}
+
+#sobre p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#servico{
+    background-color:  rgba(3, 14, 62, 0.750);
+    border: 3px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#servico:hover{
+    background-color:rgba(4, 18, 78, 0.75);
+}
+
+#servico ul{
+    list-style-type:  square;
+    padding-left: 20px;
+}
+
+#servico li{
+    margin-bottom: 10px;
+}
+
+#contato:hover{
+    background-color: rgba(4, 18, 78, 0.75);
+}
+
+#cursos{
+    background-color:  rgba(3, 14, 62, 0.750);
+    border: 3px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#cursos ul{
+    list-style-type:  square;
+    padding-left: 20px;
+}
+
+#cursos li{
+    margin-bottom: 10px;
+}
+
+#cursos:hover{
+    background-color: rgba(4, 18, 78, 0.75);
+}
+
+#formacao{
+    background-color:  rgba(3, 14, 62, 0.750);
+    border: 3px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#formacao ul{
+    list-style-type:  square;
+    padding-left: 20px;
+}
+
+#formacao li{
+    margin-bottom: 10px;
+}
+
+#formacao:hover{
+    background-color: rgba(4, 18, 78, 0.75);
+}
+
+#experiencia{
+    background-color:  rgba(3, 14, 62, 0.750);
+    border: 3px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#experiencia ul{
+    list-style-type:  square;
+    padding-left: 20px;
+}
+
+#experiencia li{
+    margin-bottom: 10px;
+}
+
+#experiencia:hover{
+    background-color: rgba(4, 18, 78, 0.75);
+}
+
+form{
+    background-color:  rgba(3, 14, 62, 0.750);
+    margin-top: 20px;
+    padding:  20px;
+    border: 2px solid  rgb(5, 21, 90);
+    border-radius: 10px;
+}
+
+form:hover{
+    background-color: rgba(4, 18, 78, 0.75);
+}
+
+form label{
+    display:block;
+    margin-bottom:  5px;
+    font-weight: bold;
+}
+
+form input, form textarea{
+    width:  100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-style: 5px;
+    border-radius: 7px;
+}
+
+form button{
+    padding: 10px 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    cursor: pointer;
+    border-color: aquamarine; 
+    text-transform: uppercase;
+    font-size: small;
+}
+
+form button:hover{
+    background-color: rgb(214, 213, 255);
+}
+
+#contato form label{
+    text-transform: uppercase;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgba(3, 14, 62, 0.750);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer:hover{
+    background-color: rgba(4, 18, 78, 0.75);
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color:  rgb(214, 213, 255);
+}
